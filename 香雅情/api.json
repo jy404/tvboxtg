@@ -10,16 +10,7 @@
         }
     ],
     "sites": [
-        {
-            "key": "csp_LocalFile",
-            "name": "💻本地视频",
-            "type": 3,
-            "api": "csp_LocalFile",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "type_flag": 0
-        },
+       
         {
             "key": "drpy_js_豆瓣",
             "name": "豆瓣[js]",
@@ -54,86 +45,6 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/百忙无果.js"
-        },
-        {
-            "key": "csp_Zhaozy",
-            "name": "📀找资源(搜索)",
-            "type": 3,
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"username\":\"fanty\",\"password\":\"qqq111\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"
-        },
-        {
-            "key": "csp_AliPS",
-            "name": "📀喵狸盘搜(搜索)",
-            "type": 3,
-            "api": "csp_AliPS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "file://TV/alitoken.txt"
-        },
-        {
-            "key": "csp_Yisou",
-            "name": "📀易搜(搜索)",
-            "type": 3,
-            "api": "csp_Yisou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "file://TV/alitoken.txt"
-        },
-        {
-            "key": "csp_Upyunso",
-            "name": "📀UP云搜(搜索)",
-            "type": 3,
-            "api": "csp_Upyunso",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "file://TV/alitoken.txt"
-        },
-        {
-            "key": "csp_XYQHiker_影搜",
-            "name": "📀影搜(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/影搜.json"
-        },
-        {
-            "key": "csp_XYQHikerAL_玩偶哥哥",
-            "name": "📀玩偶哥哥(优)",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/玩偶哥哥.json"
-        },
-        {
-            "key": "csp_XYQHikerAL_云盘资源",
-            "name": "📀云盘资源(搜索)",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/云盘资源.json"
-        },
-        {
-            "key": "push_agent",
-            "name": "📽推送",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "file://TV/alitoken.txt"
         },
         {
             "key": "csp_Mp4Mov",
@@ -323,56 +234,6 @@
             "ext": "./json/播视童趣.json"
         },
         {
-            "key": "csp_Bili幼儿",
-            "name": "🐞哔哩幼儿",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/幼儿乐园.json"
-        },
-        {
-            "key": "csp_Bili少儿",
-            "name": "🐞哔哩少儿",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/少儿教育.json"
-        },
-        {
-            "key": "csp_Bili小学",
-            "name": "🐞哔哩小学",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/小学课堂.json"
-        },
-        {
-            "key": "csp_Bili初中",
-            "name": "🐞哔哩初中",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/初中课堂.json"
-        },
-        {
-            "key": "csp_Bili高中",
-            "name": "🐞哔哩高中",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/高中课堂.json"
-        },
-        {
             "key": "JS哔哩直播",
             "name": "哔哩直播[js]",
             "type": 3,
@@ -381,16 +242,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./js/哔哩直播.js"
-        },
-        {
-            "key": "csp_Bili短剧",
-            "name": "🐞哔哩短剧",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/Bili短剧.json"
         },
         {
             "key": "csp_XYQHiker_爱你短剧",
@@ -461,26 +312,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "DRJS_虎牙",
-            "name": "虎牙直播(JS)",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/虎牙直播.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "csp_XYQHiker_虎牙直播",
-            "name": "🐯虎牙直播(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/虎牙直播.json"
         }
     ],
     "parses": [
