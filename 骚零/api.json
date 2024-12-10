@@ -78,21 +78,6 @@
             "changeable": 1
         },
         {
-            "key": "玩偶",
-            "name": "玩偶哥(网盘)",
-            "type": 3,
-            "api": "csp_WoGG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto",
-                "siteUrl": "https://www.wogg.net/",
-                "danMu": "弹"
-            }
-        },
-        {
             "key": "zxzj",
             "name": "在线",
             "type": 3,
@@ -295,19 +280,6 @@
             "changeable": 0
         },
         {
-            "key": "Lib",
-            "name": "立播",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
             "key": "drpy_js_厂长资源",
             "name": "厂长资源[js]",
             "type": 3,
@@ -409,96 +381,6 @@
             "changeable": 1
         },
         {
-            "key": "米搜",
-            "name": "小米(网盘搜)",
-            "type": 3,
-            "api": "csp_MIPanSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "抠搜",
-            "name": "抠抠(网盘搜)",
-            "type": 3,
-            "api": "csp_KkSs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "UC",
-            "name": "优汐(网盘搜)",
-            "type": 3,
-            "api": "csp_UuSs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "YiSo",
-            "name": "易搜(网盘搜)",
-            "type": 3,
-            "api": "csp_YiSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "PanSso",
-            "name": "搜搜(网盘搜)",
-            "type": 3,
-            "api": "csp_PanSso",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "YpanSo",
-            "name": "一盘(网盘搜)",
-            "type": 3,
-            "api": "csp_YpanSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "push_agent",
-            "name": "手机推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "Cloud-drive": "file://TV/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
             "key": "Bili",
             "name": "哔哔合集",
             "type": 3,
@@ -528,84 +410,6 @@
             "changeable": 0,
             "ext": {
                 "json": "./json/biliych.json"
-            }
-        },
-        {
-            "key": "dr_兔小贝",
-            "name": "儿童启蒙",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "少儿教育",
-            "name": "少儿教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/少儿教育.json"
-            }
-        },
-        {
-            "key": "小学课堂",
-            "name": "小学课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/小学课堂.json"
-            }
-        },
-        {
-            "key": "初中课堂",
-            "name": "初中课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/初中课堂.json"
-            }
-        },
-        {
-            "key": "高中教育",
-            "name": "高中课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/高中课堂.json"
             }
         }
     ]
