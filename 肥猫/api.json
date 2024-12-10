@@ -19,27 +19,6 @@
             "searchable": 0
         },
         {
-            "key": "config",
-            "name": "🐼┃配置┃中心",
-            "type": 3,
-            "api": "csp_Config",
-            "playerType": 2
-        },
-        {
-            "key": "csp_FeiMaoUC",
-            "name": "⚡┃闪电┃优汐",
-            "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://feimaouc.cloud:666",
-                    "http://feimao.tech:666"
-                ],
-                "url_key": "FeiMaoUC"
-            }
-        },
-        {
             "key": "csp_Duopan",
             "name": "🖍︎┃蜡笔┃影视",
             "type": 3,
@@ -81,21 +60,6 @@
             "type": 3,
             "api": "csp_AppRZ",
             "ext": "http://rzys.xyz/"
-        },
-        {
-            "key": "csp_XMUC",
-            "name": "🍚┃小米┃UC",
-            "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://www.mucpan.cc",
-                    "http://ucmi.fun",
-                    "http://www.ucmi.fun"
-                ],
-                "url_key": "XMUC"
-            }
         },
         {
             "key": "csp_Netfixtv",
@@ -259,64 +223,11 @@
             "api": "csp_SP360"
         },
         {
-            "key": "csp_BookTing",
-            "name": "📚┃听书┃音频",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_BookTing",
-            "searchable": 0,
-            "ext": "https://m.ting275.com",
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
-            "key": "csp_YouShengBook",
-            "name": "📚┃有声┃小说",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_LaoBaiBook",
-            "searchable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
-        },
-        {
             "key": "csp_Dm84",
             "name": "🤣┃动漫┃巴士",
             "type": 3,
             "playerType": "2",
             "api": "csp_Dm84"
-        },
-        {
-            "key": "csp_FirstAid",
-            "name": "🚑┃急救┃教学",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            },
-            "gridview": "0-0-4.1"
-        },
-        {
-            "key": "酷狗",
-            "name": "🐾┃酷狗┃音乐",
-            "type": 3,
-            "api": "csp_Kugou",
-            "playerType": 2,
-            "ext": {
-                "classes": [
-                    {
-                        "type_name": "酷狗",
-                        "type_id": "kugou"
-                    }
-                ]
-            }
         },
         {
             "key": "酷奇",
@@ -391,105 +302,12 @@
             "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
         },
         {
-            "key": "米搜",
-            "name": "🌖┃米搜┃网盘",
-            "type": 3,
-            "api": "csp_MiSou",
-            "ext": "file://TV/kk.txt"
-        },
-        {
-            "key": "csp_PanSearch",
-            "name": "🚃┃盘搜┃网盘",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "ext": "file://TV/token.txt"
-        },
-        {
             "key": "drpy_哔哩",
             "name": "🅱┃哔哩┃合集",
             "type": 3,
             "api": "csp_Bili",
             "playerType": 1,
             "ext": "./json/bilibili.json"
-        },
-        {
-            "key": "儿童",
-            "name": "📚┃儿童┃启蒙",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./js/兔小贝.js"
-        },
-        {
-            "key": "少儿",
-            "name": "📚┃少儿┃教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./json/少儿教育.json"
-        },
-        {
-            "key": "小学",
-            "name": "📚┃小学┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./json/小学课堂.json"
-        },
-        {
-            "key": "初中",
-            "name": "📚┃初中┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./json/初中课堂.json"
-        },
-        {
-            "key": "高中",
-            "name": "📚┃高中┃课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "./json/高中课堂.json"
-        },
-        {
-            "key": "push_agent",
-            "name": "关注公众号：肥猫宝贝",
-            "type": 3,
-            "api": "csp_Push",
-            "playerType": "1",
-            "searchable": 0,
-            "ext": "file://TV/token.txt"
         }
     ],
     "parses": [
