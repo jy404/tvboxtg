@@ -25,10 +25,6 @@
             "name": "OK"
         },
         {
-            "url": "https://bitbucket.org/ls125781003/tvtg/raw/main/PG/api.json",
-            "name": "PG"
-        },
-        {
             "url": "https://bitbucket.org/ls125781003/tvtg/raw/main/摸鱼儿/api.json",
             "name": "摸鱼儿"
         },
@@ -59,14 +55,6 @@
         {
             "url": "https://bitbucket.org/ls125781003/tvtg/raw/main/潇洒/api.json",
             "name": "潇洒"
-        },
-        {
-            "url": "https://bitbucket.org/ls125781003/tvtg/raw/main/戏曲音乐/api.json",
-            "name": "戏曲音乐"
-        },
-        {
-        	"url": "https://bitbucket.org/ls125781003/tvtg/raw/main/少儿频道/api.json",
-            "name": "少儿频道"
         }
     ]
 }
